@@ -28,7 +28,7 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 - Works on ANY Theme. ✅
 - Handles Root Mode / Administrator Terminal using `$` or `#`, a Classic Linux-Style Convention. ✅
 - NO FEATURE CREEP. This only includes `Git Checks`, `Execution Time`, and `Highlighting $ to Red for Errors`. ✅
-- Works Perfectly on Any Garbage Terminal, even `conhost.exe` that we know has Command Prompt. ✅
+- Works Perfectly on MOST Garbage Terminals, except the ones like `conhost.exe` that we know has Command Prompt. ✅
 - Brings the Linux Terminal Style to `Windows Powershell` ( if using Windows! ) ✅
 
 ---
@@ -37,16 +37,6 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 
 <kbd>
 <img alt="image" src="https://github.com/user-attachments/assets/d553085f-459c-4b1b-a0f8-79fe7e2ebea0" />
-</kbd>
-
----
-
-## Portability Showcase ( In conhost.exe ) :
-
-Microsoft, if you are Seeing this, Please Rmeove this from Home Systems, if not all. It's Terrible 🙏
-
-<kbd>
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e70cab0-2b3e-457d-967c-ff8bc5e67521" />
 </kbd>
 
 ---
