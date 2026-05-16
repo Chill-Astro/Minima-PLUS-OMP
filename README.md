@@ -1,18 +1,13 @@
-<br>
-<br>
-<br>
-
-<div align="center">  IMAGE TO BE PLACED HERE.
-
-<br>
-<br>
-<br>
+<div align="center">  
+    <img height="400" alt="Minama PLUS!" src="https://github.com/user-attachments/assets/76c20c0b-d384-410e-bb9a-1b4066dbff4f" />
     
-**Minima PLUS!** is a *Universal Theme* for [Oh My Posh!](https://github.com/jandedobbeleer/oh-my-posh), Built for `Speed` and `Essential Features`.
+**Minima PLUS!** is a *Simple but Universal Theme* for [Oh My Posh!](https://github.com/jandedobbeleer/oh-my-posh), Built for `Speed`, `Adaptability`, `Features` and `Maximum Portability`.
 
-**Minima** is made for all sorts of Terminal Color Schemes. In Demonstration, `Tokyo Night Storm` is Used.
+Based on its Younger Sister [Minima](https://github.com/Chill-Astro/Minima-OMP-Theme).
 
-Customization is Great, but not Inconvenience coming from Ricing. Thus I made a Simple Rice without Excess Feature Creep. My Goal is to make Powershell look like Bash. Her Design is Inspired from the `Default Linux Terminal` and `adb shell` on Rooted Android.
+**Minima PLUS!** is made for all sorts of Terminal Color Schemes. In Demonstration, `Tokyo Night Storm` is Used.
+
+Customization is Great, but not Inconvenience coming from Ricing. Thus I made a Simple Rice without any Dependencies. My Goal is to make Powershell look like Bash. Her Design is Inspired from the `Default Linux Terminal` and `adb shell` on Rooted Android.
 
 **Latest Version** : `v1.0`
 
@@ -26,11 +21,13 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 
 ## Key Features :
 
+- No Need for Nerd Font. ✅
 - Extremely Minimal and Fast. ✅
 - Familiar from the Start, Consistent on ALL SYSTEMS. ✅
 - Works on ANY Theme. ✅
-- Includes `Git Checks` and `Execution Time`.
 - Handles Root Mode / Administrator Terminal using `$` or `#`, a Classic Linux-Style Convention. ✅
+- NO FEATURE CREEP. This only includes `Git Checks`, `Execution Time`, and `Highlighting $ to Red for Errors`. ✅
+- Works Perfectly on Any Garbage Terminal, even `conhost.exe` that we know has Command Prompt. ✅
 - Brings the Linux Terminal Style to `Windows Powershell` ( if using Windows! ) ✅
 
 ---
@@ -43,14 +40,61 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 
 ---
 
+## Portability Showcase ( In conhost.exe ) :
+
+Microsoft, if you are Seeing this, Please Rmeove this from Home Systems, if not all. It's Terrible 🙏
+
+<kbd>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e70cab0-2b3e-457d-967c-ff8bc5e67521" />
+</kbd>
+
+---
+
 ## Theme Code :
 
 - Paste this Code in `~/AppData/Local/Programs/oh-my-posh/themes/Minima-PLUS.omp.json` if on Windows.
-- Alternatively Paste it in  `~/.local/share/oh-my-posh/themes/Minima-PLUS.omp.json` if on Linux.
+- Alternatively Paste it in  `~/.local/share/oh-my-posh/themes/Minima-PLUS.omp-.json` if on Linux.
 - You can Paste it Anywhere like `~/<randomfilepath>/Minima-PLUS.omp.json` on Windows, Linux or MacOS. ( Just Ensure that the Folder is Accessible )
 - If on MacOS, you are on your own! :)
 
-TO PASTE THEME CODE HERE
+      {
+        "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+        "blocks": [
+          {
+            "alignment": "left",
+            "newline": false,
+            "segments": [                
+              {
+                "foreground": "white",
+                "style": "plain",
+                "template": "{{ .UserName }}@{{ .HostName }} ",
+                "type": "session"
+              },
+              {
+                "foreground": "cyan",
+                "options": {
+                  "style": "full"
+                },
+                "style": "plain",
+                "template": "{{ .Path }} ",
+                "type": "path"
+              },
+              {
+                "foreground": "white",
+                "properties": {
+                  "always_enabled": true
+                },
+                "style": "plain",
+                "template": "{{ if .Root }}#{{ else }}${{ end }}",
+                "type": "status"
+              }
+            ],
+            "type": "prompt"
+          }
+        ],
+        "final_space": true,
+        "version": 4
+      }
   
 ## Using this on Windows :
 
@@ -62,7 +106,7 @@ TO PASTE THEME CODE HERE
 
 Change the Path if Needed!
 
-        oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/Minima.omp.json | Invoke-Expression        
+        oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/Minima-PLUS.omp.json | Invoke-Expression        
 
 - Save this and Reload `Powershell Core` or `Windows Powershell`. Enjoy! :)
 
@@ -78,7 +122,7 @@ Change the Path if Needed!
 
 Change the Path if Needed!
 
-        eval "$(oh-my-posh init bash --config ~/.local/share/oh-my-posh/themes/Minima.omp.json)"        
+        eval "$(oh-my-posh init bash --config ~/.local/share/oh-my-posh/themes/Minima-PLUS.omp.json)"        
 
 - Save this and Type :
 
@@ -105,7 +149,7 @@ Change the Path if Needed!
 Please be aware: There are fraudulent repositories on GitHub that are cloning this project's name and using AI-generated readmes, but they contain **completely random and unrelated files in each release**. These are NOT official versions of this project.
 
 **ALWAYS ensure you are downloading or cloning this project ONLY from its official and legitimate source:**
-`https://github.com/Chill-Astro/Minima-OMP-Theme`
+`https://github.com/Chill-Astro/Minima-PLUS-OMP`
 
 I am trying my best to report these people.
 
