@@ -64,7 +64,7 @@ Microsoft, if you are Seeing this, Please Rmeove this from Home Systems, if not 
           {
             "alignment": "left",
             "newline": false,
-            "segments": [                
+            "segments": [              
               {
                 "foreground": "white",
                 "style": "plain",
@@ -81,7 +81,25 @@ Microsoft, if you are Seeing this, Please Rmeove this from Home Systems, if not 
                 "type": "path"
               },
               {
+                "foreground": "blue",
+                "style": "plain",
+                "template": "‣ in {{ .FormattedMs }} ",
+                "type": "executiontime"
+              },
+              {
+                "foreground": "green",
+                "options": {
+                  "branch_icon": "‣ "
+                },
+                "template": "{{ .HEAD }} ",
+                "style": "plain",
+                "type": "git"
+              },
+              {
                 "foreground": "white",
+                "foreground_templates": [
+                  "{{ if gt .Code 0 }}red{{ end }}"
+                ],          
                 "properties": {
                   "always_enabled": true
                 },
