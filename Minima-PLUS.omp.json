@@ -23,13 +23,13 @@
         {
           "foreground": "blue",
           "style": "plain",
-          "template": "‣ in {{ .FormattedMs }} ",
+          "template": "› in {{ .FormattedMs }} ",
           "type": "executiontime"
         },
         {
           "foreground": "green",
           "options": {
-            "branch_icon": "‣ "
+            "branch_icon": "› "
           },
           "template": "{{ .HEAD }} ",
           "style": "plain",
