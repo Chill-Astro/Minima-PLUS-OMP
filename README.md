@@ -10,7 +10,7 @@ Based on its Younger Sister [Minima](https://github.com/Chill-Astro/Minima-OMP-T
 
 Customization is Great, but not Inconvenience coming from Ricing. Thus I made a Simple Rice without any Dependencies. My Goal is to make Powershell look like Bash. Her Design is Inspired from the `Default Linux Terminal` and `adb shell` on Rooted Android.
 
-**Latest Version** : `v1.0`
+**Latest Version** : `v1.1`
 
 </div>
 
@@ -28,7 +28,7 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 - Works on ANY Theme. ✅
 - Handles Root Mode / Administrator Terminal using `$` or `#`, a Classic Linux-Style Convention. ✅
 - NO FEATURE CREEP. This only includes `Git Checks`, `Execution Time`, and `Highlighting $ to Red for Errors`. ✅
-- Works Perfectly on MOST Garbage Terminals, except the ones like `conhost.exe` that we know has Command Prompt. ✅
+- Works Perfectly on Garbage Terminals like `conhost.exe` that we know has Command Prompt. ✅
 - Brings the Linux Terminal Style to `Windows Powershell` ( if using Windows! ) ✅
 
 ---
@@ -73,13 +73,13 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
               {
                 "foreground": "blue",
                 "style": "plain",
-                "template": "‣ in {{ .FormattedMs }} ",
+                "template": "› in {{ .FormattedMs }} ",
                 "type": "executiontime"
               },
               {
                 "foreground": "green",
                 "options": {
-                  "branch_icon": "‣ "
+                  "branch_icon": "› "
                 },
                 "template": "{{ .HEAD }} ",
                 "style": "plain",
