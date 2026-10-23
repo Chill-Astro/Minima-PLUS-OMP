@@ -14,10 +14,11 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 </div>
 
 > [!NOTE]
-> THIS THEME IS *"NOT FOR NEOVIMMERS & RICING LEGENDS ON ARCH"* NOR *"VERY ADVANCED USERS"*
+> THIS THEME IS *"NOT FOR RICING LEGENDS"* NOR *"VERY ADVANCED USERS"*
 > 
->( No Offense to Arch Linux nor Neovim. This is Just a Joke on Flexers and Ricing Legends. Sorry! :) )
+>( No Offence meant on Flexers and Ricing Legends. Sorry! :) )
 ---
+
 
 ## Key Features :
 
@@ -26,8 +27,8 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 - Familiar from the Start, Consistent on ALL SYSTEMS. ✅
 - Works on ANY Theme. ✅
 - Handles Root Mode / Administrator Terminal using `$` or `#`, a Classic Linux-Style Convention. ✅
-- NO FEATURE CREEP. This only includes `Git Checks`, `Execution Time`, and `Highlighting $ to Red for Errors`. ✅
-- Works Perfectly on Garbage Terminals like `conhost.exe` that we know has Command Prompt. ✅
+- COMES WITH SOMETHING ( NOT NOTHING NOR EVERYTHING ). This only includes `Git Checks`, `Execution Time`, and `Highlighting $ to Red for Errors`. ✅
+- Works Perfectly on Garbage Terminals like `conhost.exe` that we know as Command Prompt. ✅
 - Brings the Linux Terminal Style to `Windows Powershell` ( if using Windows! ) ✅
 
 ---
@@ -45,7 +46,7 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 - Paste this Code in `~/AppData/Local/Programs/oh-my-posh/themes/Minima-PLUS.omp.json` if on Windows.
 - Alternatively Paste it in  `~/.local/share/oh-my-posh/themes/Minima-PLUS.omp-.json` if on Linux.
 - You can Paste it Anywhere like `~/<randomfilepath>/Minima-PLUS.omp.json` on Windows, Linux or MacOS. ( Just Ensure that the Folder is Accessible )
-- If on MacOS, you are on your own! :)
+- If on MacOS, GOOGLE IT!
 
       {
         "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
@@ -150,7 +151,7 @@ Change the Path if Needed!
 
 - [Oh My Posh! by @jandedobbeleer](https://github.com/jandedobbeleer/oh-my-posh) : For Making Oh My Posh!
 - [@Lisa on Pexels](https://www.pexels.com/photo/pink-flowers-photograph-1083822/) : For Wallpaper in Screenshots.
-- [Windows Terminal by the Contributors @microsoft](https://github.com/microsoft/terminal) : Thanks for Replacing Conhost. It's more Terrible than Windows 11's Control Panel!
+- [Windows Terminal by the Contributors @microsoft](https://github.com/microsoft/terminal) : Thanks for Replacing Conhost!
 
 ## ⚠️ IMPORTANT NOTICE ⚠️
 
@@ -172,7 +173,7 @@ I am trying my best to report these people.
 <summary><b>View Details</b></summary>
   
 * **Suspicious Windows Executables:** Files ending in `.exe`, `.bat`, or `.dll` (e.g., `luau.exe`, `StartApp.bat`).
-* **Compressed Archives:** This project is distributed as an **MSIX**, never as a `.zip` or `.7z` containing Windows binaries.
+* **Compressed Archives:** This project is distributed as a **JSON**, never as a `.zip` or `.7z` containing Windows binaries.
 * **Hidden Scripts:** Text files like `asm.txt` used to execute malicious code on your PC.
 * The Following Folder Structure is used by Malware (Shown in a VM) :
 
