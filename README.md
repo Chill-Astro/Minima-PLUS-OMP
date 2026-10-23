@@ -44,7 +44,7 @@ Customization is Great, but not Inconvenience coming from Ricing. Thus I made a 
 ## Theme Code :
 
 - Paste this Code in `~/AppData/Local/Programs/oh-my-posh/themes/Minima-PLUS.omp.json` if on Windows.
-- Alternatively Paste it in  `~/.local/share/oh-my-posh/themes/Minima-PLUS.omp-.json` if on Linux.
+- Alternatively Paste it in  `~/.local/share/oh-my-posh/themes/Minima-PLUS.omp.json` if on Linux.
 - You can Paste it Anywhere like `~/<randomfilepath>/Minima-PLUS.omp.json` on Windows, Linux or MacOS. ( Just Ensure that the Folder is Accessible )
 - If on MacOS, GOOGLE IT!
 
